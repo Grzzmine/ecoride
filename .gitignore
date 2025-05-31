@@ -1,0 +1,30 @@
+# Ignorer les fichiers temporaires de PHPStorm
+.idea/
+*.iml
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de logs ou erreurs
+*.log
+*.tmp
+
+# Configuration locale
+.env
+*.local
+
+# Si tu utilises Composer
+/vendor/
+
+# Si tu utilises Node.js ou un front
+/node_modules/
+dist/
+build/
+
+# Cache de PHP
+*.cache
+
+# Fichiers personnels
+*.zip
+*.bak
